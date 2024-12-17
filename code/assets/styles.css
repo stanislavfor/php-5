@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    float: left;
+    height: 100vh;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+ul#navigation {
+    list-style-type: none;
+}
